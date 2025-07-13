@@ -1,0 +1,63 @@
+POST-->http://127.0.0.1:8000/core/hero-section/
+    {
+        "page": "homepage",
+        "texts": [
+            {
+                "language": "ru",
+                "title": "<p>كارد الامارات روسي</p>",
+                "description": "<p>كارد الامارات روسي</p>"
+            },
+            {
+                "language": "ar",
+                "title": "<p>قسم التأشيرات للخليج</p>",
+                "description": "<p>يحتوي هذا القسم على خدمات التأشيرات الخاصة بدول الخليج</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>Gulf Visa Section</p>",
+                "description": "<p>This section includes visa services for Gulf countries</p>"
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/hero_section/homepage/1Final-Logo-Peaky-Paws-1.png.webp"
+            },
+            {
+                "image": "/media/hero_section/homepage/download_2.jpg"
+            }
+        ]
+    }
+-------------------------------------------------
+GET-->http://127.0.0.1:8000/core/hero-section/
+[
+    {
+        "updated_at": "2025-07-06T01:11:00.108179Z",
+        "created_at": "2025-07-06T01:11:00.107076Z",
+        "page": "about-us",
+        "texts": [
+            {
+                "language": "ar",
+                "title": "<p>تيست واحد تيست واحد تيست واحد تيست واحد تيست واحد&nbsp;</p>",
+                "description": "<p>تيست واحد تيست واحد تيست واحد تيست واحد&nbsp;</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>test1 test1test1test1test1test1</p>",
+                "description": "<p>test1test1test1test1test1test1</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>russia test languagerussia test languagerussia test language</p>",
+                "description": "<p>russia test languagerussia test languagerussia test language</p>"
+            }
+        ],
+        "images": [
+            {
+                "image": "/media/hero_section/about-us/1Final-Logo-Peaky-Paws-1_SIhPdA2.png.webp"
+            },
+            {
+                "image": "/media/hero_section/about-us/download_1.jpg"
+            }
+        ]
+    }
+]

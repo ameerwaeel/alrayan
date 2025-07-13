@@ -1,0 +1,472 @@
+POST -->http://127.0.0.1:8000/visa/countries/
+{
+    "country": "EG",
+    "flag_image": "http://127.0.0.1:8000/media/flags/1Final-Logo-Peaky-Paws-1_TGSjRzT.png.webp",
+    "visa_type": "other",
+    "price": "200.00"
+}
+----------------------------------------------------
+GET -->http://127.0.0.1:8000/visa/countries/
+
+[
+    {
+        "updated_at": "2025-07-04T23:31:45.006859Z",
+        "created_at": "2025-07-04T23:31:45.006859Z",
+        "country": "OM",
+        "flag_image": "http://127.0.0.1:8000/media/flags/1Final-Logo-Peaky-Paws-1_SFHMaqA.png.webp",
+        "visa_type": "evisa",
+        "price": "70.00"
+    },
+    {
+        "updated_at": "2025-07-04T23:32:07.958841Z",
+        "created_at": "2025-07-04T23:32:07.958841Z",
+        "country": "SA",
+        "flag_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+        "visa_type": "free",
+        "price": "0.00"
+    },
+    {
+        "updated_at": "2025-07-04T23:32:29.414611Z",
+        "created_at": "2025-07-04T23:32:29.414611Z",
+        "country": "EG",
+        "flag_image": "http://127.0.0.1:8000/media/flags/download_2_7CYzdBo.jpg",
+        "visa_type": "other",
+        "price": "200.00"
+    }
+]
+****************************************************
+POST -->http://127.0.0.1:8000/visa/visa-cards/
+لازم تدخل جدول البلد الاول عشان يختار منو تمم 
+لانو بيعرضلك البلد اللي موجوده عشان هو رليشن مع جدول خاص بالبلاد 
+{
+  "name": "oman Visa Card",
+  "image": "http://127.0.0.1:8000/media/flags/1Final-Logo-Peaky-Paws-1_SFHMaqA.png.webp",
+  "country_id": "OM",
+  "text": [
+    {
+      "language": "ar",
+      "title": "<p>كارد oman </p>",
+      "description": "<p>هذا كارد خاص oman </p>"
+    },
+    {
+      "language": "en",
+      "title": "<p>oman oman Card</p>",
+      "description": "<p>This is a oman oman visa card</p>"
+    },
+    {
+      "language": "ru",
+      "title": "<p>Виза oman oman </p>",
+      "description": "<p>Это виза Саудовской Аравии</p>"
+    }
+  ]
+}
+----------------------------------------------------
+GET -->http://127.0.0.1:8000/visa/visa-cards/
+
+[
+    {
+        "updated_at": "2025-07-05T02:09:16.471786Z",
+        "created_at": "2025-07-05T02:09:16.471786Z",
+        "name": "oman Visa Card",
+        "image": "http://127.0.0.1:8000/media/flags/1Final-Logo-Peaky-Paws-1_SFHMaqA.png.webp",
+        "text": [
+            {
+                "language": "ar",
+                "title": "<p>كارد oman </p>",
+                "description": "<p>هذا كارد خاص oman </p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>oman oman Card</p>",
+                "description": "<p>This is a oman oman visa card</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>Виза oman oman </p>",
+                "description": "<p>Это виза Саудовской Аравии</p>"
+            }
+        ],
+        "country": {
+            "updated_at": "2025-07-04T23:31:45.006859Z",
+            "created_at": "2025-07-04T23:31:45.006859Z",
+            "country": "OM",
+            "flag_image": "http://127.0.0.1:8000/media/flags/1Final-Logo-Peaky-Paws-1_SFHMaqA.png.webp",
+            "visa_type": "evisa",
+            "price": "70.00"
+        }
+    }
+]
+****************************************************
+POST -->http://127.0.0.1:8000/visa/visa-sections/
+لازم تدخل الكاردز الاول وتبقي تختار منها 
+{
+  "section_name": "خدمات التأشيرات الخليجية",
+  "text_data": [
+    {
+      "language": "ar",
+      "title": "<p>قسم التأشيرات للخليج</p>",
+      "description": "<p>يحتوي هذا القسم على خدمات التأشيرات الخاصة بدول الخليج</p>"
+    },
+    {
+      "language": "en",
+      "title": "<p>Gulf Visa Section</p>",
+      "description": "<p>This section includes visa services for Gulf countries</p>"
+    }
+  ],
+  "cards": ["oman Visa Card", "Saudi Arabia Visa Card"]
+}
+
+----------------------------------------------------
+GET -->http://127.0.0.1:8000/visa/visa-sections/
+
+[
+    {
+        "section_name": "section 1",
+        "text": [
+            {
+                "language": "ar",
+                "title": "card1",
+                "description": "card1"
+            },
+            {
+                "language": "en",
+                "title": "card1",
+                "description": "card1"
+            },
+            {
+                "language": "ru",
+                "title": "card1",
+                "description": "card1"
+            }
+        ],
+        "cards_details": [
+            {
+                "updated_at": "2025-07-05T02:31:10.123051Z",
+                "created_at": "2025-07-05T02:31:10.123051Z",
+                "name": "oman Visa Card",
+                "image": "http://127.0.0.1:8000/media/visa_cards/1Final-Logo-Peaky-Paws-1_c4LEXnh.png.webp",
+                "text": [
+                    {
+                        "language": "ar",
+                        "title": "<p>كارد oman </p>",
+                        "description": "<p>هذا كارد خاص oman </p>"
+                    },
+                    {
+                        "language": "en",
+                        "title": "<p>oman oman Card</p>",
+                        "description": "<p>This is a oman oman visa card</p>"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "<p>Виза oman oman </p>",
+                        "description": "<p>Это виза Саудовской Аравии</p>"
+                    }
+                ],
+                "country": {
+                    "updated_at": "2025-07-04T23:31:45.006859Z",
+                    "created_at": "2025-07-04T23:31:45.006859Z",
+                    "country": "OM",
+                    "flag_image": "http://127.0.0.1:8000/media/flags/1Final-Logo-Peaky-Paws-1_SFHMaqA.png.webp",
+                    "visa_type": "evisa",
+                    "price": "70.00"
+                }
+            },
+            {
+                "updated_at": "2025-07-05T02:31:28.701667Z",
+                "created_at": "2025-07-05T02:31:28.701667Z",
+                "name": "egypt",
+                "image": "http://127.0.0.1:8000/media/visa_cards/download_1.jpg",
+                "text": [
+                    {
+                        "language": "ar",
+                        "title": "card1",
+                        "description": "card1"
+                    },
+                    {
+                        "language": "en",
+                        "title": "card1",
+                        "description": "card1"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "card1",
+                        "description": "card1"
+                    }
+                ],
+                "country": {
+                    "updated_at": "2025-07-04T23:32:29.414611Z",
+                    "created_at": "2025-07-04T23:32:29.414611Z",
+                    "country": "EG",
+                    "flag_image": "http://127.0.0.1:8000/media/flags/download_2_7CYzdBo.jpg",
+                    "visa_type": "other",
+                    "price": "200.00"
+                }
+            }
+        ]
+    },
+    {
+        "section_name": "خدمات التأشيرات الخليجية",
+        "text": [
+            {
+                "language": "ar",
+                "title": "<p>قسم التأشيرات للخليج</p>",
+                "description": "<p>يحتوي هذا القسم على خدمات التأشيرات الخاصة بدول الخليج</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>Gulf Visa Section</p>",
+                "description": "<p>This section includes visa services for Gulf countries</p>"
+            }
+        ],
+        "cards_details": [
+            {
+                "updated_at": "2025-07-05T02:34:09.426253Z",
+                "created_at": "2025-07-05T02:30:38.735542Z",
+                "name": "Saudi Arabia Visa Card",
+                "image": "http://127.0.0.1:8000/media/visa_cards/1Final-Logo-Peaky-Paws-1_ytjzPWu.png.webp",
+                "text": [
+                    {
+                        "language": "ar",
+                        "title": "<p>كارد oman </p>",
+                        "description": "<p>هذا كارد خاص oman </p>"
+                    },
+                    {
+                        "language": "en",
+                        "title": "<p>oman oman Card</p>",
+                        "description": "<p>This is a oman oman visa card</p>"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "<p>Виза oman oman </p>",
+                        "description": "<p>Это виза Саудовской Аравии</p>"
+                    }
+                ],
+                "country": {
+                    "updated_at": "2025-07-04T23:32:07.958841Z",
+                    "created_at": "2025-07-04T23:32:07.958841Z",
+                    "country": "SA",
+                    "flag_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+                    "visa_type": "free",
+                    "price": "0.00"
+                }
+            },
+            {
+                "updated_at": "2025-07-05T02:31:10.123051Z",
+                "created_at": "2025-07-05T02:31:10.123051Z",
+                "name": "oman Visa Card",
+                "image": "http://127.0.0.1:8000/media/visa_cards/1Final-Logo-Peaky-Paws-1_c4LEXnh.png.webp",
+                "text": [
+                    {
+                        "language": "ar",
+                        "title": "<p>كارد oman </p>",
+                        "description": "<p>هذا كارد خاص oman </p>"
+                    },
+                    {
+                        "language": "en",
+                        "title": "<p>oman oman Card</p>",
+                        "description": "<p>This is a oman oman visa card</p>"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "<p>Виза oman oman </p>",
+                        "description": "<p>Это виза Саудовской Аравии</p>"
+                    }
+                ],
+                "country": {
+                    "updated_at": "2025-07-04T23:31:45.006859Z",
+                    "created_at": "2025-07-04T23:31:45.006859Z",
+                    "country": "OM",
+                    "flag_image": "http://127.0.0.1:8000/media/flags/1Final-Logo-Peaky-Paws-1_SFHMaqA.png.webp",
+                    "visa_type": "evisa",
+                    "price": "70.00"
+                }
+            }
+        ]
+    }
+]
+****************************************************
+POST -->http://127.0.0.1:8000/visa/create-booking/
+{
+  "travel_date": "2025-08-01",
+  "return_date": "2025-08-10",
+  "flight_info": "<p>Flight</p>",
+  "hotel_info": "<p>Hotel</p>",
+  "adults": 1,
+  "children": 1,
+  "people_input": [
+    {
+      "full_name": "Ali Hassan",
+      "phone": "01000000000",
+      "email": "ali@example.com",
+      "address": "Cairo",
+      "nationality_id": "EG",
+      "age": 30 
+      "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+      "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",         
+    },
+    {
+      "full_name": "Ahmed Ali",
+      "phone": "01000000001",
+      "email": "ahmed@example.com",
+      "address": "Giza",
+      "nationality_id": "KW",
+      "age": 5
+      "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+      "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",               
+
+    }
+  ]
+}
+
+----------------------------------------------------
+Response-->http://127.0.0.1:8000/visa/create-booking/
+{
+    "created_at": "2025-07-11T04:37:14.870659Z",
+    "updated_at": "2025-07-11T04:37:14.870659Z",
+    "travel_date": "2025-08-01",
+    "return_date": "2025-08-10",
+    "flight_info": "<p>Flight</p>",
+    "hotel_info": "<p>Hotel</p>",
+    "adults": 1,
+    "children": 1,
+    "total_price": "220.00",
+    "total_people": 2,
+    "people": [
+        {
+            "full_name": "Ali Hassan",
+            "phone": "01000000000",
+            "email": "ali@example.com",
+            "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+            "address": "Cairo",
+            "nationality": {
+                "country": "EG",
+                "flag_image": "http://127.0.0.1:8000/media/flags/Screenshot_319_8tPNhYx.png",
+                "visa_type": "other",
+                "price": "200.00"
+            },
+            "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",               
+            "age": 30,
+            "created_at": "2025-07-11T04:37:14.886059Z",
+            "updated_at": "2025-07-11T04:37:14.886059Z"
+        },
+        {
+            "full_name": "Ahmed Ali",
+            "phone": "01000000001",
+            "email": "ahmed@example.com",
+            "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+            "address": "Giza",
+            "nationality": {
+                "country": "KW",
+                "flag_image": "http://127.0.0.1:8000/media/flags/WhatsApp_Image_2025-05-14_at_13_SeUuYc3.50.38_d0a2fcb8.jpg",
+                "visa_type": "free",
+                "price": "20.00"
+            },
+            "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+            "age": 5,
+            "created_at": "2025-07-11T04:37:14.887164Z",
+            "updated_at": "2025-07-11T04:37:14.887164Z"
+        }
+    ]
+}
+
+----------------------------------------------------
+GET -->http://127.0.0.1:8000/visa/create-booking/
+
+[
+    {
+        "created_at": "2025-07-11T04:40:20.795207Z",
+        "updated_at": "2025-07-11T04:40:20.795207Z",
+        "travel_date": "2025-08-01",
+        "return_date": "2025-08-10",
+        "flight_info": "<p>Flight</p>",
+        "hotel_info": "<p>Hotel</p>",
+        "adults": 1,
+        "children": 1,
+        "total_price": "220.00",
+        "total_people": 2,
+        "people": [
+            {
+                "full_name": "Ali Hassan",
+                "phone": "01000000000",
+                "email": "ali@example.com",
+                "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+                "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",  
+                "address": "Cairo",
+                "nationality": {
+                    "country": "EG",
+                    "flag_image": "http://127.0.0.1:8000/media/flags/Screenshot_319_8tPNhYx.png",
+                    "visa_type": "other",
+                    "price": "200.00"
+                },
+                "age": 30,
+                "created_at": "2025-07-11T04:40:20.805663Z",
+                "updated_at": "2025-07-11T04:40:20.805663Z"
+            },
+            {
+                "full_name": "Ahmed Ali",
+                "phone": "01000000001",
+                "email": "ahmed@example.com",
+                "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+                "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",  
+                "address": "Giza",
+                "nationality": {
+                    "country": "KW",
+                    "flag_image": "http://127.0.0.1:8000/media/flags/WhatsApp_Image_2025-05-14_at_13_SeUuYc3.50.38_d0a2fcb8.jpg",
+                    "visa_type": "free",
+                    "price": "20.00"
+                },
+                "age": 5,
+                "created_at": "2025-07-11T04:40:20.815486Z",
+                "updated_at": "2025-07-11T04:40:20.815486Z"
+            }
+        ]
+    },
+    {
+        "created_at": "2025-07-11T04:40:55.632324Z",
+        "updated_at": "2025-07-11T04:40:55.632324Z",
+        "travel_date": "2025-08-01",
+        "return_date": "2025-08-10",
+        "flight_info": "<p>Flight</p>",
+        "hotel_info": "<p>Hotel</p>",
+        "adults": 1,
+        "children": 1,
+        "total_price": "90.00",
+        "total_people": 2,
+        "people": [
+            {
+                "full_name": "hassan Hassan",
+                "phone": "01000000000",
+                "email": "ali@example.com",
+                "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+                "address": "Cairo",
+                "nationality": {
+                    "country": "JO",
+                    "flag_image": "http://127.0.0.1:8000/media/flags/download_BVItxHv.jpg",
+                    "visa_type": "evisa",
+                    "price": "70.00"
+                },
+                "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",  
+                "age": 30,
+                "created_at": "2025-07-11T04:40:55.645465Z",
+                "updated_at": "2025-07-11T04:40:55.645465Z"
+            },
+            {
+                "full_name": "Ahmed Ali",
+                "phone": "01000000001",
+                "email": "ahmed@example.com",
+                "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
+                "address": "Giza",
+                "nationality": {
+                    "country": "KW",
+                    "flag_image": "http://127.0.0.1:8000/media/flags/WhatsApp_Image_2025-05-14_at_13_SeUuYc3.50.38_d0a2fcb8.jpg",
+                    "visa_type": "free",
+                    "price": "20.00"
+                },
+                "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",  
+                "age": 5,
+                "created_at": "2025-07-11T04:40:55.658847Z",
+                "updated_at": "2025-07-11T04:40:55.658847Z"
+            }
+        ]
+    }
+]

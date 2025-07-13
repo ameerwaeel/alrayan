@@ -1,0 +1,1018 @@
+POST-->http://127.0.0.1:8000/cars/cars/
+{
+  "name": [
+    {
+      "language": "ar",
+      "title": "مارسيديس 2025",
+      "description": "سيارة فاخرة ألمانية"
+    },
+    {
+      "language": "en",
+      "title": "Mercedes 2025",
+      "description": "Luxury German Car"
+    },
+    {
+      "language": "ru",
+      "title": "Мерседес 2025",
+      "description": "Роскошный немецкий автомобиль"
+    }
+  ],
+  "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+  "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+  "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+  "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+  "model_year": 2025,
+  "price_per_day": "200.00",
+  "price_per_hour": "30.00",
+  "seats": 5,
+  "gear_type": "automatic",
+  "fuel_type": "petrol",
+  "zero_to_100_seconds": "5.5",
+  "child_safety_seat": true
+}
+Response-->http://127.0.0.1:8000/cars/cars/
+{
+    "name_translations": [
+        {
+            "language": "ar",
+            "title": "مارسيديس 2025",
+            "description": "سيارة فاخرة ألمانية"
+        },
+        {
+            "language": "en",
+            "title": "Mercedes 2025",
+            "description": "Luxury German Car"
+        },
+        {
+            "language": "ru",
+            "title": "Мерседес 2025",
+            "description": "Роскошный немецкий автомобиль"
+        }
+    ],
+    "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+    "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+    "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+    "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+    "model_year": 2025,
+    "price_per_day": "200.00",
+    "price_per_hour": "30.00",
+    "seats": 5,
+    "gear_type": "automatic",
+    "fuel_type": "petrol",
+    "zero_to_100_seconds": "5.50",
+    "child_safety_seat": true,
+    "images_car": [],
+    "created_at": "2025-07-12T02:14:55.887308Z",
+    "updated_at": "2025-07-12T02:14:55.887892Z"
+}
+GET-->http://127.0.0.1:8000/cars/cars/
+[
+    {
+        "name_translations": [
+            {
+                "language": "ar",
+                "title": "<p>مارسيديس2024</p>",
+                "description": "<p>مارسيديس2024</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>مارسيديس2024</p>",
+                "description": "<p>مارسيديس2024</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>مارسيديس2024</p>",
+                "description": "<p>مارسيديس2024</p>"
+            }
+        ],
+        "main_image": "http://127.0.0.1:8000/media/cars/main/download.jpg",
+        "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/1Final-Logo-Peaky-Paws-1_R5UP7UO.png.webp",
+        "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/download_1.jpg",
+        "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2.jpg",
+        "model_year": 2024,
+        "price_per_day": "10.00",
+        "price_per_hour": "240.00",
+        "seats": 5,
+        "gear_type": "automatic",
+        "fuel_type": "petrol",
+        "zero_to_100_seconds": "5.00",
+        "child_safety_seat": true,
+        "images_car": [],
+        "created_at": "2025-07-06T03:11:28.972585Z",
+        "updated_at": "2025-07-06T03:11:28.972585Z"
+    },
+    {
+        "name_translations": [
+            {
+                "language": "ar",
+                "title": "<p>ليموزين عربي</p>",
+                "description": "<p>ليموزين</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>ليموزين انجلش</p>",
+                "description": "<p>ليموزين</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>ليموزين روسي</p>",
+                "description": "<p>ليموزين</p>"
+            }
+        ],
+        "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+        "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+        "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+        "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+        "model_year": 2025,
+        "price_per_day": "240.00",
+        "price_per_hour": "20.00",
+        "seats": 7,
+        "gear_type": "automatic",
+        "fuel_type": "diesel",
+        "zero_to_100_seconds": "5.00",
+        "child_safety_seat": true,
+        "images_car": [
+            {
+                "image": "/media/cars/gallery/1Final-Logo-Peaky-Paws-1_xrsdM96.png.webp"
+            },
+            {
+                "image": "/media/cars/gallery/download_1_ae19SXl.jpg"
+            }
+        ],
+        "created_at": "2025-07-06T03:13:10.450895Z",
+        "updated_at": "2025-07-06T03:13:10.450895Z"
+    },
+    {
+        "name_translations": [
+            {
+                "language": "ar",
+                "title": "<p>مارسيديس2024</p>",
+                "description": "<p>مارسيديس2024</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>مارسيديس2024</p>",
+                "description": "<p>مارسيديس2024</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>مارسيديس2024</p>",
+                "description": "<p>مارسيديس2024</p>"
+            }
+        ],
+        "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_k7IcZkv.png.webp",
+        "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_2_yHswiFW.jpg",
+        "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/download_3_T8apZZn.jpg",
+        "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_7YZa7CO.jpg",
+        "model_year": 2026,
+        "price_per_day": "300.00",
+        "price_per_hour": "30.00",
+        "seats": 5,
+        "gear_type": "automatic",
+        "fuel_type": "electric",
+        "zero_to_100_seconds": "5.00",
+        "child_safety_seat": true,
+        "images_car": [],
+        "created_at": "2025-07-06T03:14:26.091681Z",
+        "updated_at": "2025-07-06T03:14:26.091681Z"
+    },
+    {
+        "name_translations": [
+            {
+                "language": "ar",
+                "title": "مارسيديس 2025",
+                "description": "سيارة فاخرة ألمانية"
+            },
+            {
+                "language": "en",
+                "title": "Mercedes 2025",
+                "description": "Luxury German Car"
+            },
+            {
+                "language": "ru",
+                "title": "Мерседес 2025",
+                "description": "Роскошный немецкий автомобиль"
+            }
+        ],
+        "main_image": "http://127.0.0.1:8000/media/cars/main/download.jpg",
+        "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/1Final-Logo-Peaky-Paws-1_R5UP7UO.png.webp",
+        "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/download_1.jpg",
+        "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2.jpg",
+        "model_year": 2025,
+        "price_per_day": "200.00",
+        "price_per_hour": "30.00",
+        "seats": 5,
+        "gear_type": "automatic",
+        "fuel_type": "petrol",
+        "zero_to_100_seconds": "5.50",
+        "child_safety_seat": true,
+        "images_car": [],
+        "created_at": "2025-07-12T02:14:55.887308Z",
+        "updated_at": "2025-07-12T02:14:55.887892Z"
+    }
+]
+
+****************************************************
+POST-->http://127.0.0.1:8000/cars/categories/
+{
+  "name": "ليموزين",
+  "description": [
+    {
+      "language": "ar",
+      "title": "ليموزين عربي",
+      "description": "ليموزين"
+    },
+    {
+      "language": "en",
+      "title": "ليموزين انجلش",
+      "description": "ليموزين"
+    },
+    {
+      "language": "ru",
+      "title": "ليموزين روسي",
+      "description": "ليموزين"
+    }
+  ],
+  "car_names": [
+    "ليموزين عربي",
+    "مارسيديس2024 روسي"
+  ]
+}
+------------------------------------------------
+Response-->http://127.0.0.1:8000/cars/categories/
+{
+    "name": "ليموزين",
+    "description": [
+        {
+            "language": "ar",
+            "title": "ليموزين عربي",
+            "description": "ليموزين"
+        },
+        {
+            "language": "en",
+            "title": "ليموزين انجلش",
+            "description": "ليموزين"
+        },
+        {
+            "language": "ru",
+            "title": "ليموزين روسي",
+            "description": "ليموزين"
+        }
+    ],
+    "car": [
+        {
+            "name_translations": [
+                {
+                    "language": "ar",
+                    "title": "<p>ليموزين عربي</p>",
+                    "description": "<p>ليموزين</p>"
+                },
+                {
+                    "language": "en",
+                    "title": "<p>ليموزين انجلش</p>",
+                    "description": "<p>ليموزين</p>"
+                },
+                {
+                    "language": "ru",
+                    "title": "<p>ليموزين روسي</p>",
+                    "description": "<p>ليموزين</p>"
+                }
+            ],
+            "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+            "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+            "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+            "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+            "model_year": 2025,
+            "price_per_day": "240.00",
+            "price_per_hour": "20.00",
+            "seats": 7,
+            "gear_type": "automatic",
+            "fuel_type": "diesel",
+            "zero_to_100_seconds": "5.00",
+            "child_safety_seat": true,
+            "images_car": [
+                {
+                    "image": "/media/cars/gallery/1Final-Logo-Peaky-Paws-1_xrsdM96.png.webp"
+                },
+                {
+                    "image": "/media/cars/gallery/download_1_ae19SXl.jpg"
+                }
+            ],
+            "created_at": "2025-07-06T03:13:10.450895Z",
+            "updated_at": "2025-07-06T03:13:10.450895Z"
+        },
+        {
+            "name_translations": [
+                {
+                    "language": "ar",
+                    "title": "<p>مارسيديس2024 عربي</p>",
+                    "description": "<p>مارسيديس2024</p>"
+                },
+                {
+                    "language": "en",
+                    "title": "<p>مارسيديس2024 انجلش</p>",
+                    "description": "<p>مارسيديس2024</p>"
+                },
+                {
+                    "language": "ru",
+                    "title": "<p>مارسيديس2024 روسي</p>",
+                    "description": "<p>مارسيديس2024</p>"
+                }
+            ],
+            "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_k7IcZkv.png.webp",
+            "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_2_yHswiFW.jpg",
+            "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/download_3_T8apZZn.jpg",
+            "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_7YZa7CO.jpg",
+            "model_year": 2026,
+            "price_per_day": "300.00",
+            "price_per_hour": "30.00",
+            "seats": 5,
+            "gear_type": "automatic",
+            "fuel_type": "electric",
+            "zero_to_100_seconds": "5.00",
+            "child_safety_seat": true,
+            "images_car": [],
+            "created_at": "2025-07-06T03:14:26.091681Z",
+            "updated_at": "2025-07-06T03:14:26.091681Z"
+        }
+    ],
+    "created_at": "2025-07-12T07:25:58.337394Z",
+    "updated_at": "2025-07-12T07:25:58.337394Z"
+}
+------------------------------------------------
+GET-->http://127.0.0.1:8000/cars/categories/
+[
+    {
+        "name": "ليموزين",
+        "description": [
+            {
+                "language": "ar",
+                "title": "ليموزين عربي",
+                "description": "ليموزين"
+            },
+            {
+                "language": "en",
+                "title": "ليموزين انجلش",
+                "description": "ليموزين"
+            },
+            {
+                "language": "ru",
+                "title": "ليموزين روسي",
+                "description": "ليموزين"
+            }
+        ],
+        "car": [
+            {
+                "name_translations": [
+                    {
+                        "language": "ar",
+                        "title": "<p>ليموزين عربي</p>",
+                        "description": "<p>ليموزين</p>"
+                    },
+                    {
+                        "language": "en",
+                        "title": "<p>ليموزين انجلش</p>",
+                        "description": "<p>ليموزين</p>"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "<p>ليموزين روسي</p>",
+                        "description": "<p>ليموزين</p>"
+                    }
+                ],
+                "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+                "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+                "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+                "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+                "model_year": 2025,
+                "price_per_day": "240.00",
+                "price_per_hour": "20.00",
+                "seats": 7,
+                "gear_type": "automatic",
+                "fuel_type": "diesel",
+                "zero_to_100_seconds": "5.00",
+                "child_safety_seat": true,
+                "images_car": [
+                    {
+                        "image": "/media/cars/gallery/1Final-Logo-Peaky-Paws-1_xrsdM96.png.webp"
+                    },
+                    {
+                        "image": "/media/cars/gallery/download_1_ae19SXl.jpg"
+                    }
+                ],
+                "created_at": "2025-07-06T03:13:10.450895Z",
+                "updated_at": "2025-07-06T03:13:10.450895Z"
+            },
+            {
+                "name_translations": [
+                    {
+                        "language": "ar",
+                        "title": "<p>مارسيديس2024 عربي</p>",
+                        "description": "<p>مارسيديس2024</p>"
+                    },
+                    {
+                        "language": "en",
+                        "title": "<p>مارسيديس2024 انجلش</p>",
+                        "description": "<p>مارسيديس2024</p>"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "<p>مارسيديس2024 روسي</p>",
+                        "description": "<p>مارسيديس2024</p>"
+                    }
+                ],
+                "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_k7IcZkv.png.webp",
+                "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_2_yHswiFW.jpg",
+                "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/download_3_T8apZZn.jpg",
+                "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_7YZa7CO.jpg",
+                "model_year": 2026,
+                "price_per_day": "300.00",
+                "price_per_hour": "30.00",
+                "seats": 5,
+                "gear_type": "automatic",
+                "fuel_type": "electric",
+                "zero_to_100_seconds": "5.00",
+                "child_safety_seat": true,
+                "images_car": [],
+                "created_at": "2025-07-06T03:14:26.091681Z",
+                "updated_at": "2025-07-06T03:14:26.091681Z"
+            }
+        ],
+        "created_at": "2025-07-12T07:25:58.337394Z",
+        "updated_at": "2025-07-12T07:25:58.337394Z"
+    },
+    {
+        "name": "pmw",
+        "description": [
+            {
+                "language": "ar",
+                "title": "ليموزين عربي",
+                "description": "ليموزين"
+            },
+            {
+                "language": "en",
+                "title": "ليموزين انجلش",
+                "description": "ليموزين"
+            },
+            {
+                "language": "ru",
+                "title": "ليموزين روسي",
+                "description": "ليموزين"
+            }
+        ],
+        "car": [
+            {
+                "name_translations": [
+                    {
+                        "language": "ar",
+                        "title": "<p>ليموزين عربي</p>",
+                        "description": "<p>ليموزين</p>"
+                    },
+                    {
+                        "language": "en",
+                        "title": "<p>ليموزين انجلش</p>",
+                        "description": "<p>ليموزين</p>"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "<p>ليموزين روسي</p>",
+                        "description": "<p>ليموزين</p>"
+                    }
+                ],
+                "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+                "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+                "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+                "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+                "model_year": 2025,
+                "price_per_day": "240.00",
+                "price_per_hour": "20.00",
+                "seats": 7,
+                "gear_type": "automatic",
+                "fuel_type": "diesel",
+                "zero_to_100_seconds": "5.00",
+                "child_safety_seat": true,
+                "images_car": [
+                    {
+                        "image": "/media/cars/gallery/1Final-Logo-Peaky-Paws-1_xrsdM96.png.webp"
+                    },
+                    {
+                        "image": "/media/cars/gallery/download_1_ae19SXl.jpg"
+                    }
+                ],
+                "created_at": "2025-07-06T03:13:10.450895Z",
+                "updated_at": "2025-07-06T03:13:10.450895Z"
+            },
+            {
+                "name_translations": [
+                    {
+                        "language": "ar",
+                        "title": "<p>مارسيديس2024 عربي</p>",
+                        "description": "<p>مارسيديس2024</p>"
+                    },
+                    {
+                        "language": "en",
+                        "title": "<p>مارسيديس2024 انجلش</p>",
+                        "description": "<p>مارسيديس2024</p>"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "<p>مارسيديس2024 روسي</p>",
+                        "description": "<p>مارسيديس2024</p>"
+                    }
+                ],
+                "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_k7IcZkv.png.webp",
+                "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_2_yHswiFW.jpg",
+                "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/download_3_T8apZZn.jpg",
+                "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_7YZa7CO.jpg",
+                "model_year": 2026,
+                "price_per_day": "300.00",
+                "price_per_hour": "30.00",
+                "seats": 5,
+                "gear_type": "automatic",
+                "fuel_type": "electric",
+                "zero_to_100_seconds": "5.00",
+                "child_safety_seat": true,
+                "images_car": [],
+                "created_at": "2025-07-06T03:14:26.091681Z",
+                "updated_at": "2025-07-06T03:14:26.091681Z"
+            },
+            {
+                "name_translations": [
+                    {
+                        "language": "ar",
+                        "title": "مارسيديس 2025",
+                        "description": "سيارة فاخرة ألمانية"
+                    },
+                    {
+                        "language": "en",
+                        "title": "Mercedes 2025",
+                        "description": "Luxury German Car"
+                    },
+                    {
+                        "language": "ru",
+                        "title": "Мерседес 2025",
+                        "description": "Роскошный немецкий автомобиль"
+                    }
+                ],
+                "main_image": null,
+                "image_inside_360": null,
+                "image_outside_360": null,
+                "image_open_door_360": null,
+                "model_year": 2025,
+                "price_per_day": "200.00",
+                "price_per_hour": "30.00",
+                "seats": 5,
+                "gear_type": "automatic",
+                "fuel_type": "petrol",
+                "zero_to_100_seconds": "5.50",
+                "child_safety_seat": true,
+                "images_car": [],
+                "created_at": "2025-07-12T02:14:55.887308Z",
+                "updated_at": "2025-07-12T02:14:55.887892Z"
+            }
+        ],
+        "created_at": "2025-07-12T07:32:32.160556Z",
+        "updated_at": "2025-07-12T07:32:32.160556Z"
+    }
+]
+
+****************************************************
+POST-->http://127.0.0.1:8000/cars/car-images/
+    {
+        "car_name": "ليموزين عربي",
+        "image": "http://127.0.0.1:8000/media/cars/gallery/1Final-Logo-Peaky-Paws-1.png.webp"
+    }
+Response -->http://127.0.0.1:8000/cars/car-images/
+{
+    "car_translations": [
+        {
+            "language": "ar",
+            "title": "<p>ليموزين عربي</p>",
+            "description": "<p>ليموزين</p>"
+        },
+        {
+            "language": "en",
+            "title": "<p>ليموزين انجلش</p>",
+            "description": "<p>ليموزين</p>"
+        },
+        {
+            "language": "ru",
+            "title": "<p>ليموزين روسي</p>",
+            "description": "<p>ليموزين</p>"
+        }
+    ],
+    "image": "http://127.0.0.1:8000/media/cars/gallery/download_1_ae19SXl.jpg",
+    "created_at": "2025-07-12T02:04:07.614751Z",
+    "updated_at": "2025-07-12T02:04:07.614751Z"
+}    
+---------------------------------------------
+
+GET-->http://127.0.0.1:8000/cars/car-images/
+[
+    {
+        "car_translations": [
+            {
+                "language": "ar",
+                "title": "<p>ليموزين عربي</p>",
+                "description": "<p>ليموزين</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>ليموزين انجلش</p>",
+                "description": "<p>ليموزين</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>ليموزين روسي</p>",
+                "description": "<p>ليموزين</p>"
+            }
+        ],
+        "image": "http://127.0.0.1:8000/media/cars/gallery/1Final-Logo-Peaky-Paws-1_xrsdM96.png.webp",
+        "created_at": "2025-07-12T01:58:36.481385Z",
+        "updated_at": "2025-07-12T01:58:36.481385Z"
+    },
+    {
+        "car_translations": [
+            {
+                "language": "ar",
+                "title": "<p>ليموزين عربي</p>",
+                "description": "<p>ليموزين</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>ليموزين انجلش</p>",
+                "description": "<p>ليموزين</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>ليموزين روسي</p>",
+                "description": "<p>ليموزين</p>"
+            }
+        ],
+        "image": "http://127.0.0.1:8000/media/cars/gallery/download_1_ae19SXl.jpg",
+        "created_at": "2025-07-12T02:04:07.614751Z",
+        "updated_at": "2025-07-12T02:04:07.614751Z"
+    }
+]
+*************************************************************
+POST-->http://127.0.0.1:8000/cars/car-bookings/
+{
+  "car_name": "ليموزين عربي",
+  "travel_date": "2025-07-10",
+  "return_date": "2025-07-15",
+  "flight_info": "Flight 123",
+  "hotel_info": "Hotel ABC",
+  "meeting_point": "Cairo Airport",
+  "trip_type": "all",
+  "adults": 2,
+  "children": 1,
+  "people_input": [
+    {
+      "full_name": "أحمد جمال",
+      "phone": "+201111111111",
+      "email": "ahmed@example.com",
+      "comment": "لا يوجد تعليق",
+      "country": "EG",
+      "age": 30
+    },
+    {
+      "full_name": "منة أحمد",
+      "phone": "+201122222222",
+      "email": "mena@example.com",
+      "comment": "مسافرة مع العائلة",
+      "country": "EG",
+      "age": 28
+    },
+    {
+      "full_name": "زياد",
+      "phone": "+201133333333",
+      "email": "ziad@example.com",
+      "comment": "طفل",
+      "country": "EG",
+      "age": 8
+    }
+  ]
+}
+---------------------------------------------
+Response-->http://127.0.0.1:8000/cars/car-bookings/
+{
+    "car": {
+        "name": [
+            {
+                "language": "ar",
+                "title": "<p>ليموزين عربي</p>",
+                "description": "<p>ليموزين</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>ليموزين انجلش</p>",
+                "description": "<p>ليموزين</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>ليموزين روسي</p>",
+                "description": "<p>ليموزين</p>"
+            }
+        ],
+        "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+        "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+        "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+        "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+        "model_year": 2025,
+        "price_per_day": "240.00",
+        "price_per_hour": "20.00",
+        "seats": 7,
+        "gear_type": "automatic",
+        "fuel_type": "diesel",
+        "zero_to_100_seconds": "5.00",
+        "child_safety_seat": true,
+        "images_car": [
+            {
+                "image": "/media/cars/gallery/download_1.jpg"
+            },
+            {
+                "image": "/media/cars/gallery/download_1_atlHO3K.jpg"
+            }
+        ]
+    },
+    "travel_date": "2025-07-10",
+    "return_date": "2025-07-15",
+    "flight_info": "Flight 123",
+    "hotel_info": "Hotel ABC",
+    "meeting_point": "Cairo Airport",
+    "trip_type": "all",
+    "adults": 2,
+    "children": 1,
+    "total_price": "1200.00",
+    "total_people": 3,
+    "people": [
+        {
+            "full_name": "أحمد جمال",
+            "phone": "+201111111111",
+            "email": "ahmed@example.com",
+            "comment": "لا يوجد تعليق",
+            "country": "EG",
+            "age": 30
+        },
+        {
+            "full_name": "منة أحمد",
+            "phone": "+201122222222",
+            "email": "mena@example.com",
+            "comment": "مسافرة مع العائلة",
+            "country": "EG",
+            "age": 28
+        },
+        {
+            "full_name": "زياد",
+            "phone": "+201133333333",
+            "email": "ziad@example.com",
+            "comment": "طفل",
+            "country": "EG",
+            "age": 8
+        }
+    ],
+    "created_at": "2025-07-12T01:29:46.097397Z",
+    "updated_at": "2025-07-12T01:29:46.097397Z"
+}
+
+-----------------------------------------------
+GET-->http://127.0.0.1:8000/cars/car-bookings/
+[
+        {
+        "car": {
+            "name": [
+                {
+                    "language": "ar",
+                    "title": "<p>ليموزين عربي</p>",
+                    "description": "<p>ليموزين</p>"
+                },
+                {
+                    "language": "en",
+                    "title": "<p>ليموزين انجلش</p>",
+                    "description": "<p>ليموزين</p>"
+                },
+                {
+                    "language": "ru",
+                    "title": "<p>ليموزين روسي</p>",
+                    "description": "<p>ليموزين</p>"
+                }
+            ],
+            "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+            "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+            "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+            "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+            "model_year": 2025,
+            "price_per_day": "240.00",
+            "price_per_hour": "20.00",
+            "seats": 7,
+            "gear_type": "automatic",
+            "fuel_type": "diesel",
+            "zero_to_100_seconds": "5.00",
+            "child_safety_seat": true,
+            "images_car": [
+                {
+                    "image": "/media/cars/gallery/download_1.jpg"
+                },
+                {
+                    "image": "/media/cars/gallery/download_1_atlHO3K.jpg"
+                }
+            ]
+        },
+        "travel_date": "2025-07-10",
+        "return_date": "2025-07-15",
+        "flight_info": "Flight 123",
+        "hotel_info": "Hotel ABC",
+        "meeting_point": "Cairo Airport",
+        "trip_type": "all",
+        "adults": 2,
+        "children": 1,
+        "total_price": "1200.00",
+        "total_people": 3,
+        "people": [
+            {
+                "full_name": "أحمد جمال",
+                "phone": "+201111111111",
+                "email": "ahmed@example.com",
+                "comment": "لا يوجد تعليق",
+                "country": "EG",
+                "age": 30
+            },
+            {
+                "full_name": "منة أحمد",
+                "phone": "+201122222222",
+                "email": "mena@example.com",
+                "comment": "مسافرة مع العائلة",
+                "country": "EG",
+                "age": 28
+            },
+            {
+                "full_name": "زياد",
+                "phone": "+201133333333",
+                "email": "ziad@example.com",
+                "comment": "طفل",
+                "country": "EG",
+                "age": 8
+            }
+        ],
+        "created_at": "2025-07-12T01:29:15.170777Z",
+        "updated_at": "2025-07-12T01:29:15.170777Z"
+    },
+    {
+        "car": {
+            "name": [
+                {
+                    "language": "ar",
+                    "title": "<p>ليموزين عربي</p>",
+                    "description": "<p>ليموزين</p>"
+                },
+                {
+                    "language": "en",
+                    "title": "<p>ليموزين انجلش</p>",
+                    "description": "<p>ليموزين</p>"
+                },
+                {
+                    "language": "ru",
+                    "title": "<p>ليموزين روسي</p>",
+                    "description": "<p>ليموزين</p>"
+                }
+            ],
+            "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+            "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+            "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+            "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+            "model_year": 2025,
+            "price_per_day": "240.00",
+            "price_per_hour": "20.00",
+            "seats": 7,
+            "gear_type": "automatic",
+            "fuel_type": "diesel",
+            "zero_to_100_seconds": "5.00",
+            "child_safety_seat": true,
+            "images_car": [
+                {
+                    "image": "/media/cars/gallery/download_1.jpg"
+                },
+                {
+                    "image": "/media/cars/gallery/download_1_atlHO3K.jpg"
+                }
+            ]
+        },
+        "travel_date": "2025-07-10",
+        "return_date": "2025-07-15",
+        "flight_info": "Flight 123",
+        "hotel_info": "Hotel ABC",
+        "meeting_point": "Cairo Airport",
+        "trip_type": "all",
+        "adults": 2,
+        "children": 1,
+        "total_price": "1200.00",
+        "total_people": 3,
+        "people": [
+            {
+                "full_name": "أحمد جمال",
+                "phone": "+201111111111",
+                "email": "ahmed@example.com",
+                "comment": "لا يوجد تعليق",
+                "country": "EG",
+                "age": 30
+            },
+            {
+                "full_name": "منة أحمد",
+                "phone": "+201122222222",
+                "email": "mena@example.com",
+                "comment": "مسافرة مع العائلة",
+                "country": "EG",
+                "age": 28
+            },
+            {
+                "full_name": "زياد",
+                "phone": "+201133333333",
+                "email": "ziad@example.com",
+                "comment": "طفل",
+                "country": "EG",
+                "age": 8
+            }
+        ],
+        "created_at": "2025-07-12T01:29:35.256814Z",
+        "updated_at": "2025-07-12T01:29:35.256814Z"
+    },
+    {
+        "car": {
+            "name": [
+                {
+                    "language": "ar",
+                    "title": "<p>ليموزين عربي</p>",
+                    "description": "<p>ليموزين</p>"
+                },
+                {
+                    "language": "en",
+                    "title": "<p>ليموزين انجلش</p>",
+                    "description": "<p>ليموزين</p>"
+                },
+                {
+                    "language": "ru",
+                    "title": "<p>ليموزين روسي</p>",
+                    "description": "<p>ليموزين</p>"
+                }
+            ],
+            "main_image": "http://127.0.0.1:8000/media/cars/main/1Final-Logo-Peaky-Paws-1_Pt5KfA7.png.webp",
+            "image_inside_360": "http://127.0.0.1:8000/media/cars/inside360/download_1_qUqn9sV.jpg",
+            "image_outside_360": "http://127.0.0.1:8000/media/cars/outside360/WhatsApp_Image_2025-05-14_at_13.50.38_d0a2fcb8.jpg",
+            "image_open_door_360": "http://127.0.0.1:8000/media/cars/door360/download_2_XBUse9M.jpg",
+            "model_year": 2025,
+            "price_per_day": "240.00",
+            "price_per_hour": "20.00",
+            "seats": 7,
+            "gear_type": "automatic",
+            "fuel_type": "diesel",
+            "zero_to_100_seconds": "5.00",
+            "child_safety_seat": true,
+            "images_car": [
+                {
+                    "image": "/media/cars/gallery/download_1.jpg"
+                },
+                {
+                    "image": "/media/cars/gallery/download_1_atlHO3K.jpg"
+                }
+            ]
+        },
+        "travel_date": "2025-07-10",
+        "return_date": "2025-07-15",
+        "flight_info": "Flight 123",
+        "hotel_info": "Hotel ABC",
+        "meeting_point": "Cairo Airport",
+        "trip_type": "all",
+        "adults": 2,
+        "children": 1,
+        "total_price": "1200.00",
+        "total_people": 3,
+        "people": [
+            {
+                "full_name": "أحمد جمال",
+                "phone": "+201111111111",
+                "email": "ahmed@example.com",
+                "comment": "لا يوجد تعليق",
+                "country": "EG",
+                "age": 30
+            },
+            {
+                "full_name": "منة أحمد",
+                "phone": "+201122222222",
+                "email": "mena@example.com",
+                "comment": "مسافرة مع العائلة",
+                "country": "EG",
+                "age": 28
+            },
+            {
+                "full_name": "زياد",
+                "phone": "+201133333333",
+                "email": "ziad@example.com",
+                "comment": "طفل",
+                "country": "EG",
+                "age": 8
+            }
+        ],
+        "created_at": "2025-07-12T01:29:46.097397Z",
+        "updated_at": "2025-07-12T01:29:46.097397Z"
+    }
+]

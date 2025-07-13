@@ -1,0 +1,81 @@
+POST-->http://127.0.0.1:8000/activities/activities/
+{
+    "main_image": "http://127.0.0.1:8000/media/activities/main/download_2.jpg",
+    "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download_2.jpg",
+    "name": "<h2>رحلة نيلية في القاهرة</h2>\t",
+    "days": 1,
+    "nights": 0,
+    "price": "1000.00",
+    "location_name": "Cairo",
+    "location_link": "https://goo.gl/maps/abc123",
+    "stars": 5,
+    "reviews": 45,
+    "love": 123,
+    "details": "<p>رحلة تشمل عشاء فاخر وموسيقى شرقية</p>\t",
+    "overviews": "<ul><li>الاستقبال</li><li>العشاء</li><li>الترفيه</li></ul>\t",
+    "ages": "+18",
+    "max_groups": 20,
+    "duration": "01:30:00",
+    "start_time": "18:00:00",
+    "included": "عشاء، موسيقى، مرشد سياحي"
+}
+Response-->http://127.0.0.1:8000/activities/activities/
+{
+    "id": 1,
+    "images": [],
+    "created_at": "2025-07-08T22:54:36.684796Z",
+    "updated_at": "2025-07-08T22:54:36.686811Z",
+    "uuid": "ad1b9bfa-5a52-428d-9904-4c6bcdab2dca",
+    "slug": "cairo",
+    "main_image": "http://127.0.0.1:8000/media/activities/main/download_2.jpg",
+    "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download_2.jpg",
+    "name": "<h2>رحلة نيلية في القاهرة</h2>\t",
+    "days": 1,
+    "nights": 0,
+    "price": "1000.00",
+    "location_name": "Cairo",
+    "location_link": "https://goo.gl/maps/abc123",
+    "stars": 5,
+    "reviews": 45,
+    "love": 123,
+    "details": "<p>رحلة تشمل عشاء فاخر وموسيقى شرقية</p>\t",
+    "overviews": "<ul><li>الاستقبال</li><li>العشاء</li><li>الترفيه</li></ul>\t",
+    "ages": "+18",
+    "max_groups": 20,
+    "duration": "01:30:00",
+    "start_time": "18:00:00",
+    "included": "عشاء، موسيقى، مرشد سياحي"
+}
+---------------------------------------------------
+GET-->http://127.0.0.1:8000/activities/activities/
+[
+    {
+        "id": 1,
+        "images": [],
+        "created_at": "2025-07-08T22:54:36.684796Z",
+        "updated_at": "2025-07-08T22:54:36.686811Z",
+        "uuid": "ad1b9bfa-5a52-428d-9904-4c6bcdab2dca",
+        "slug": "cairo",
+        "main_image": "http://127.0.0.1:8000/media/activities/main/download_2.jpg",
+        "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download_2.jpg",
+        "name": "<h2>رحلة نيلية في القاهرة</h2>\t",
+        "days": 1,
+        "nights": 0,
+        "price": "1000.00",
+        "location_name": "Cairo",
+        "location_link": "https://goo.gl/maps/abc123",
+        "stars": 5,
+        "reviews": 45,
+        "love": 123,
+        "details": "<p>رحلة تشمل عشاء فاخر وموسيقى شرقية</p>\t",
+        "overviews": "<ul><li>الاستقبال</li><li>العشاء</li><li>الترفيه</li></ul>\t",
+        "ages": "+18",
+        "max_groups": 20,
+        "duration": "01:30:00",
+        "start_time": "18:00:00",
+        "included": "عشاء، موسيقى، مرشد سياحي"
+    }
+]
