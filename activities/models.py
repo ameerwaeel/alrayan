@@ -17,7 +17,7 @@ class Activity(TimeStampedModel):
     main_image = models.ImageField(upload_to='activities/main/')
     video_link = models.URLField(blank=True, null=True)
     image_of_video = models.ImageField(upload_to='activities/video_img/')
-    name = CKEditor5Field('name', config_name='default')
+    name = CKEditor5Field('name', config_name='default', unique=True)
     days = models.PositiveIntegerField()
     nights = models.PositiveIntegerField()
     price = models.DecimalField(max_digits=10, decimal_places=2)
@@ -32,8 +32,8 @@ class Activity(TimeStampedModel):
     max_groups = models.PositiveIntegerField()
     duration = models.DurationField()
     start_time = models.TimeField()
-    included = models.CharField(max_length=255)
-
+    # included = models.CharField(max_length=255)
+    included=CKEditor5Field('included', config_name='default')
     def __str__(self):
         return self.slug
 
@@ -122,7 +122,7 @@ class BookingPerson(TimeStampedModel):
     full_name = models.CharField(max_length=255)
     email = models.EmailField()
     age = models.PositiveIntegerField()
-    number = models.CharField(max_length=20)
+    phone = models.CharField(max_length=20)
     country = CountryField()
     comment = CKEditor5Field('comment', config_name='default')
 

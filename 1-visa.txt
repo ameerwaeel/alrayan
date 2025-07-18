@@ -300,7 +300,7 @@ POST -->http://127.0.0.1:8000/visa/create-booking/
       "email": "ali@example.com",
       "address": "Cairo",
       "nationality_id": "EG",
-      "age": 30 
+      "age": 30, 
       "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
       "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",         
     },
@@ -310,7 +310,7 @@ POST -->http://127.0.0.1:8000/visa/create-booking/
       "email": "ahmed@example.com",
       "address": "Giza",
       "nationality_id": "KW",
-      "age": 5
+      "age": 5,
       "image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",
       "visa_image": "http://127.0.0.1:8000/media/flags/download_zF4Uflz.jpg",               
 

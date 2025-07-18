@@ -1,63 +1,55 @@
 POST-->http://127.0.0.1:8000/activities/activities/
 {
-    "main_image": "http://127.0.0.1:8000/media/activities/main/download_2.jpg",
-    "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download_2.jpg",
-    "name": "<h2>رحلة نيلية في القاهرة</h2>\t",
-    "days": 1,
-    "nights": 0,
-    "price": "1000.00",
-    "location_name": "Cairo",
-    "location_link": "https://goo.gl/maps/abc123",
+    "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+    "video_link": "http://127.0.0.1:8000/activities/activities/",
+    "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+    "name": "mero",
+    "days": 5,
+    "nights": 20,
+    "price": "200.00",
+    "location_name": "russia",
+    "location_link": "http://127.0.0.1:8000/activities/activities/",
     "stars": 5,
-    "reviews": 45,
-    "love": 123,
-    "details": "<p>رحلة تشمل عشاء فاخر وموسيقى شرقية</p>\t",
-    "overviews": "<ul><li>الاستقبال</li><li>العشاء</li><li>الترفيه</li></ul>\t",
-    "ages": "+18",
+    "reviews": 200,
+    "love": 200,
+    "details": "wswaDYFUGFHKT",
+    "overviews": "artsayhtsrjetryulti",
+    "ages": "20",
     "max_groups": 20,
     "duration": "01:30:00",
-    "start_time": "18:00:00",
-    "included": "عشاء، موسيقى، مرشد سياحي"
+    "start_time": "14:31:00",
+    "included": "saDTDHSJKLTU;IYO'UP",
 }
+------------------------------------------------------------
 Response-->http://127.0.0.1:8000/activities/activities/
 {
-    "id": 1,
-    "images": [],
-    "created_at": "2025-07-08T22:54:36.684796Z",
-    "updated_at": "2025-07-08T22:54:36.686811Z",
-    "uuid": "ad1b9bfa-5a52-428d-9904-4c6bcdab2dca",
-    "slug": "cairo",
-    "main_image": "http://127.0.0.1:8000/media/activities/main/download_2.jpg",
-    "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download_2.jpg",
-    "name": "<h2>رحلة نيلية في القاهرة</h2>\t",
-    "days": 1,
-    "nights": 0,
-    "price": "1000.00",
-    "location_name": "Cairo",
-    "location_link": "https://goo.gl/maps/abc123",
+    "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+    "video_link": "http://127.0.0.1:8000/activities/activities/",
+    "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+    "name": "mero",
+    "days": 5,
+    "nights": 20,
+    "price": "200.00",
+    "location_name": "russia",
+    "location_link": "http://127.0.0.1:8000/activities/activities/",
     "stars": 5,
-    "reviews": 45,
-    "love": 123,
-    "details": "<p>رحلة تشمل عشاء فاخر وموسيقى شرقية</p>\t",
-    "overviews": "<ul><li>الاستقبال</li><li>العشاء</li><li>الترفيه</li></ul>\t",
-    "ages": "+18",
+    "reviews": 200,
+    "love": 200,
+    "details": "wswaDYFUGFHKT",
+    "overviews": "artsayhtsrjetryulti",
+    "ages": "20",
     "max_groups": 20,
     "duration": "01:30:00",
-    "start_time": "18:00:00",
-    "included": "عشاء، موسيقى، مرشد سياحي"
+    "start_time": "14:31:00",
+    "included": "saDTDHSJKLTU;IYO'UP",
+    "images": [],
+    "created_at": "2025-07-18T11:34:22.110151Z",
+    "updated_at": "2025-07-18T11:34:22.110151Z"
 }
 ---------------------------------------------------
 GET-->http://127.0.0.1:8000/activities/activities/
 [
     {
-        "id": 1,
-        "images": [],
-        "created_at": "2025-07-08T22:54:36.684796Z",
-        "updated_at": "2025-07-08T22:54:36.686811Z",
-        "uuid": "ad1b9bfa-5a52-428d-9904-4c6bcdab2dca",
-        "slug": "cairo",
         "main_image": "http://127.0.0.1:8000/media/activities/main/download_2.jpg",
         "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download_2.jpg",
@@ -76,6 +68,502 @@ GET-->http://127.0.0.1:8000/activities/activities/
         "max_groups": 20,
         "duration": "01:30:00",
         "start_time": "18:00:00",
-        "included": "عشاء، موسيقى، مرشد سياحي"
+        "included": "عشاء، موسيقى، مرشد سياحي",
+        "images": [],
+        "created_at": "2025-07-08T22:54:36.684796Z",
+        "updated_at": "2025-07-08T22:54:36.686811Z"
+    },
+    {
+        "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+        "video_link": "http://127.0.0.1:8000/activities/activities/",
+        "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+        "name": "mero",
+        "days": 5,
+        "nights": 20,
+        "price": "200.00",
+        "location_name": "russia",
+        "location_link": "http://127.0.0.1:8000/activities/activities/",
+        "stars": 5,
+        "reviews": 200,
+        "love": 200,
+        "details": "wswaDYFUGFHKT",
+        "overviews": "artsayhtsrjetryulti",
+        "ages": "20",
+        "max_groups": 20,
+        "duration": "01:30:00",
+        "start_time": "14:31:00",
+        "included": "saDTDHSJKLTU;IYO'UP",
+        "images": [],
+        "created_at": "2025-07-18T11:34:22.110151Z",
+        "updated_at": "2025-07-18T11:34:22.110151Z"
+    }
+]
+------------------------------------------------------------
+POST-->http://127.0.0.1:8000/activities/categories/
+{
+  "text": [
+    {
+      "language": "ar",
+      "title": "<p>نشاط جديد</p>",
+      "description": "<p>وصف للنشاط الجديد</p>"
+    },
+    {
+      "language": "en",
+      "title": "<p>New Activity</p>",
+      "description": "<p>Description of the new activity</p>"
+    }
+  ],
+  "activities_input": ["mero"]
+}
+------------------------------------------------------------
+Response-->http://127.0.0.1:8000/activities/categories/
+{
+    "text": [
+        {
+            "language": "ar",
+            "title": "<p>نشاط جديد</p>",
+            "description": "<p>وصف للنشاط الجديد</p>"
+        },
+        {
+            "language": "en",
+            "title": "<p>New Activity</p>",
+            "description": "<p>Description of the new activity</p>"
+        }
+    ],
+    "activities": [
+        {
+            "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+            "video_link": "http://127.0.0.1:8000/activities/activities/",
+            "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+            "name": "mero",
+            "days": 5,
+            "nights": 20,
+            "price": "200.00",
+            "location_name": "russia",
+            "location_link": "http://127.0.0.1:8000/activities/activities/",
+            "stars": 5,
+            "reviews": 200,
+            "love": 200,
+            "details": "wswaDYFUGFHKT",
+            "overviews": "artsayhtsrjetryulti",
+            "ages": "20",
+            "max_groups": 20,
+            "duration": "01:30:00",
+            "start_time": "14:31:00",
+            "included": "saDTDHSJKLTU;IYO'UP",
+            "images": [],
+            "created_at": "2025-07-18T11:34:22.110151Z",
+            "updated_at": "2025-07-18T11:34:22.110151Z"
+        }
+    ],
+    "created_at": "2025-07-18T12:09:17.371608Z",
+    "updated_at": "2025-07-18T12:09:17.371608Z"
+}
+------------------------------------------------------------
+GET-->http://127.0.0.1:8000/activities/categories/
+[
+    {
+        "text": [
+            {
+                "language": "ar",
+                "title": "<p>activity ar&nbsp;</p>",
+                "description": "<p>activity ar&nbsp;</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>activity-en</p>",
+                "description": "<p>activity-en</p>"
+            },
+            {
+                "language": "ru",
+                "title": "<p>activity-ru</p>",
+                "description": "<p>activity-ru</p>"
+            }
+        ],
+        "activities": [
+            {
+                "main_image": "http://127.0.0.1:8000/media/activities/main/download_2.jpg",
+                "video_link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download_2.jpg",
+                "name": "<h2>رحلة نيلية في القاهرة</h2>\t",
+                "days": 1,
+                "nights": 0,
+                "price": "1000.00",
+                "location_name": "Cairo",
+                "location_link": "https://goo.gl/maps/abc123",
+                "stars": 5,
+                "reviews": 45,
+                "love": 123,
+                "details": "<p>رحلة تشمل عشاء فاخر وموسيقى شرقية</p>\t",
+                "overviews": "<ul><li>الاستقبال</li><li>العشاء</li><li>الترفيه</li></ul>\t",
+                "ages": "+18",
+                "max_groups": 20,
+                "duration": "01:30:00",
+                "start_time": "18:00:00",
+                "included": "عشاء، موسيقى، مرشد سياحي",
+                "images": [],
+                "created_at": "2025-07-08T22:54:36.684796Z",
+                "updated_at": "2025-07-08T22:54:36.686811Z"
+            },
+            {
+                "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+                "video_link": "http://127.0.0.1:8000/activities/activities/",
+                "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+                "name": "mero",
+                "days": 5,
+                "nights": 20,
+                "price": "200.00",
+                "location_name": "russia",
+                "location_link": "http://127.0.0.1:8000/activities/activities/",
+                "stars": 5,
+                "reviews": 200,
+                "love": 200,
+                "details": "wswaDYFUGFHKT",
+                "overviews": "artsayhtsrjetryulti",
+                "ages": "20",
+                "max_groups": 20,
+                "duration": "01:30:00",
+                "start_time": "14:31:00",
+                "included": "saDTDHSJKLTU;IYO'UP",
+                "images": [],
+                "created_at": "2025-07-18T11:34:22.110151Z",
+                "updated_at": "2025-07-18T11:34:22.110151Z"
+            }
+        ],
+        "created_at": "2025-07-18T11:41:21.710279Z",
+        "updated_at": "2025-07-18T11:41:21.710279Z"
+    },
+    {
+        "text": [],
+        "activities": [
+            {
+                "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+                "video_link": "http://127.0.0.1:8000/activities/activities/",
+                "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+                "name": "mero",
+                "days": 5,
+                "nights": 20,
+                "price": "200.00",
+                "location_name": "russia",
+                "location_link": "http://127.0.0.1:8000/activities/activities/",
+                "stars": 5,
+                "reviews": 200,
+                "love": 200,
+                "details": "wswaDYFUGFHKT",
+                "overviews": "artsayhtsrjetryulti",
+                "ages": "20",
+                "max_groups": 20,
+                "duration": "01:30:00",
+                "start_time": "14:31:00",
+                "included": "saDTDHSJKLTU;IYO'UP",
+                "images": [],
+                "created_at": "2025-07-18T11:34:22.110151Z",
+                "updated_at": "2025-07-18T11:34:22.110151Z"
+            }
+        ],
+        "created_at": "2025-07-18T11:58:37.231036Z",
+        "updated_at": "2025-07-18T11:58:37.231036Z"
+    },
+    {
+        "text": [],
+        "activities": [
+            {
+                "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+                "video_link": "http://127.0.0.1:8000/activities/activities/",
+                "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+                "name": "mero",
+                "days": 5,
+                "nights": 20,
+                "price": "200.00",
+                "location_name": "russia",
+                "location_link": "http://127.0.0.1:8000/activities/activities/",
+                "stars": 5,
+                "reviews": 200,
+                "love": 200,
+                "details": "wswaDYFUGFHKT",
+                "overviews": "artsayhtsrjetryulti",
+                "ages": "20",
+                "max_groups": 20,
+                "duration": "01:30:00",
+                "start_time": "14:31:00",
+                "included": "saDTDHSJKLTU;IYO'UP",
+                "images": [],
+                "created_at": "2025-07-18T11:34:22.110151Z",
+                "updated_at": "2025-07-18T11:34:22.110151Z"
+            }
+        ],
+        "created_at": "2025-07-18T12:05:30.407868Z",
+        "updated_at": "2025-07-18T12:05:30.407868Z"
+    },
+    {
+        "text": [],
+        "activities": [
+            {
+                "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+                "video_link": "http://127.0.0.1:8000/activities/activities/",
+                "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+                "name": "mero",
+                "days": 5,
+                "nights": 20,
+                "price": "200.00",
+                "location_name": "russia",
+                "location_link": "http://127.0.0.1:8000/activities/activities/",
+                "stars": 5,
+                "reviews": 200,
+                "love": 200,
+                "details": "wswaDYFUGFHKT",
+                "overviews": "artsayhtsrjetryulti",
+                "ages": "20",
+                "max_groups": 20,
+                "duration": "01:30:00",
+                "start_time": "14:31:00",
+                "included": "saDTDHSJKLTU;IYO'UP",
+                "images": [],
+                "created_at": "2025-07-18T11:34:22.110151Z",
+                "updated_at": "2025-07-18T11:34:22.110151Z"
+            }
+        ],
+        "created_at": "2025-07-18T12:06:58.246985Z",
+        "updated_at": "2025-07-18T12:06:58.246985Z"
+    },
+    {
+        "text": [
+            {
+                "language": "ar",
+                "title": "<p>نشاط جديد</p>",
+                "description": "<p>وصف للنشاط الجديد</p>"
+            },
+            {
+                "language": "en",
+                "title": "<p>New Activity</p>",
+                "description": "<p>Description of the new activity</p>"
+            }
+        ],
+        "activities": [
+            {
+                "main_image": "http://127.0.0.1:8000/media/activities/main/1Final-Logo-Peaky-Paws-1.png.webp",
+                "video_link": "http://127.0.0.1:8000/activities/activities/",
+                "image_of_video": "http://127.0.0.1:8000/media/activities/video_img/download.jpg",
+                "name": "mero",
+                "days": 5,
+                "nights": 20,
+                "price": "200.00",
+                "location_name": "russia",
+                "location_link": "http://127.0.0.1:8000/activities/activities/",
+                "stars": 5,
+                "reviews": 200,
+                "love": 200,
+                "details": "wswaDYFUGFHKT",
+                "overviews": "artsayhtsrjetryulti",
+                "ages": "20",
+                "max_groups": 20,
+                "duration": "01:30:00",
+                "start_time": "14:31:00",
+                "included": "saDTDHSJKLTU;IYO'UP",
+                "images": [],
+                "created_at": "2025-07-18T11:34:22.110151Z",
+                "updated_at": "2025-07-18T11:34:22.110151Z"
+            }
+        ],
+        "created_at": "2025-07-18T12:09:17.371608Z",
+        "updated_at": "2025-07-18T12:09:17.371608Z"
+    }
+]
+**********************************************************
+POST-->http://127.0.0.1:8000/activities/images/
+{
+    "img": "http://127.0.0.1:8000/media/activities/gallery/download_3.jpg",
+    "activity": "<h2>رحلة نيلية في القاهرة</h2>\t",
+}
+------------------------------------------------------------
+Response-->http://127.0.0.1:8000/activities/images/
+{
+    "img": "http://127.0.0.1:8000/media/activities/gallery/download_3.jpg",
+    "activity": "<h2>رحلة نيلية في القاهرة</h2>\t",
+    "created_at": "2025-07-18T12:15:17.856203Z",
+    "updated_at": "2025-07-18T12:15:17.856203Z"
+}
+------------------------------------------------------------
+GET-->http://127.0.0.1:8000/activities/images/
+[
+    {
+        "img": "http://127.0.0.1:8000/media/activities/gallery/1Final-Logo-Peaky-Paws-1.png.webp",
+        "activity": "mero",
+        "created_at": "2025-07-18T12:12:31.793208Z",
+        "updated_at": "2025-07-18T12:12:31.793208Z"
+    },
+    {
+        "img": "http://127.0.0.1:8000/media/activities/gallery/download_3.jpg",
+        "activity": "<h2>رحلة نيلية في القاهرة</h2>\t",
+        "created_at": "2025-07-18T12:15:17.856203Z",
+        "updated_at": "2025-07-18T12:15:17.856203Z"
+    }
+]
+**********************************************************
+POST-->http://127.0.0.1:8000/activities/bookings/
+{
+  "activity": 1,
+  "adults": 2,
+  "children": 1,
+  "datebooking": "2025-07-20",
+  "people_input": [
+    {
+      "full_name": "أحمد علي",
+      "phone": "+201000000000",
+      "email": "ahmed@example.com",
+      "comment": "لا يوجد",
+      "country": "EG",
+      "age": 30
+    },
+    {
+      "full_name": "سارة محمد",
+      "phone": "+201111111111",
+      "email": "sara@example.com",
+      "comment": "عندها حساسية",
+      "country": "EG",
+      "age": 28
+    },
+    {
+      "full_name": "ليلى أحمد",
+      "phone": "+201222222222",
+      "email": "laila@example.com",
+      "comment": "طفلة",
+      "country": "EG",
+      "age": 7
+    }
+  ]
+}
+
+------------------------------------------------------------
+Response-->http://127.0.0.1:8000/activities/bookings/
+{
+    "activity": 1,
+    "adults": 2,
+    "children": 1,
+    "datebooking": "2025-07-20",
+    "total_price": "3000.00",
+    "total_people": 3,
+    "people": [
+        {
+            "full_name": "أحمد علي",
+            "phone": "+201000000000",
+            "email": "ahmed@example.com",
+            "comment": "لا يوجد",
+            "country": "EG",
+            "age": 30,
+            "created_at": "2025-07-18T12:23:01.714278Z",
+            "updated_at": "2025-07-18T12:23:01.714278Z"
+        },
+        {
+            "full_name": "سارة محمد",
+            "phone": "+201111111111",
+            "email": "sara@example.com",
+            "comment": "عندها حساسية",
+            "country": "EG",
+            "age": 28,
+            "created_at": "2025-07-18T12:23:01.726565Z",
+            "updated_at": "2025-07-18T12:23:01.726565Z"
+        },
+        {
+            "full_name": "ليلى أحمد",
+            "phone": "+201222222222",
+            "email": "laila@example.com",
+            "comment": "طفلة",
+            "country": "EG",
+            "age": 7,
+            "created_at": "2025-07-18T12:23:01.738839Z",
+            "updated_at": "2025-07-18T12:23:01.738839Z"
+        }
+    ],
+    "created_at": "2025-07-18T12:23:01.700444Z",
+    "updated_at": "2025-07-18T12:23:01.700444Z"
+}
+
+------------------------------------------------------------
+GET-->http://127.0.0.1:8000/activities/bookings/
+[
+    {
+        "activity": 1,
+        "adults": 2,
+        "children": 1,
+        "datebooking": "2025-07-20",
+        "total_price": "3000.00",
+        "total_people": 3,
+        "people": [
+            {
+                "full_name": "أحمد علي",
+                "phone": "+201000000000",
+                "email": "ahmed@example.com",
+                "comment": "لا يوجد",
+                "country": "EG",
+                "age": 30,
+                "created_at": "2025-07-18T12:20:32.975107Z",
+                "updated_at": "2025-07-18T12:20:32.975107Z"
+            },
+            {
+                "full_name": "سارة محمد",
+                "phone": "+201111111111",
+                "email": "sara@example.com",
+                "comment": "عندها حساسية",
+                "country": "EG",
+                "age": 28,
+                "created_at": "2025-07-18T12:20:32.984232Z",
+                "updated_at": "2025-07-18T12:20:32.984232Z"
+            },
+            {
+                "full_name": "ليلى أحمد",
+                "phone": "+201222222222",
+                "email": "laila@example.com",
+                "comment": "طفلة",
+                "country": "EG",
+                "age": 7,
+                "created_at": "2025-07-18T12:20:32.993419Z",
+                "updated_at": "2025-07-18T12:20:32.993419Z"
+            }
+        ],
+        "created_at": "2025-07-18T12:20:32.962950Z",
+        "updated_at": "2025-07-18T12:20:32.962950Z"
+    },
+    {
+        "activity": 1,
+        "adults": 2,
+        "children": 1,
+        "datebooking": "2025-07-20",
+        "total_price": "3000.00",
+        "total_people": 3,
+        "people": [
+            {
+                "full_name": "أحمد علي",
+                "phone": "+201000000000",
+                "email": "ahmed@example.com",
+                "comment": "لا يوجد",
+                "country": "EG",
+                "age": 30,
+                "created_at": "2025-07-18T12:23:01.714278Z",
+                "updated_at": "2025-07-18T12:23:01.714278Z"
+            },
+            {
+                "full_name": "سارة محمد",
+                "phone": "+201111111111",
+                "email": "sara@example.com",
+                "comment": "عندها حساسية",
+                "country": "EG",
+                "age": 28,
+                "created_at": "2025-07-18T12:23:01.726565Z",
+                "updated_at": "2025-07-18T12:23:01.726565Z"
+            },
+            {
+                "full_name": "ليلى أحمد",
+                "phone": "+201222222222",
+                "email": "laila@example.com",
+                "comment": "طفلة",
+                "country": "EG",
+                "age": 7,
+                "created_at": "2025-07-18T12:23:01.738839Z",
+                "updated_at": "2025-07-18T12:23:01.738839Z"
+            }
+        ],
+        "created_at": "2025-07-18T12:23:01.700444Z",
+        "updated_at": "2025-07-18T12:23:01.700444Z"
     }
 ]

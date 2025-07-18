@@ -23,10 +23,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('visa/', include('visa.urls')),
     path('core/', include('core.urls')),
-    # path('activities/', include('activities.urls')),
+    path('activities/', include('activities.urls')),
     path('user/token/',TokenObtainPairView.as_view()),
     path('ckeditor5/', include('django_ckeditor_5.urls')),
     path('cars/', include('cars.urls')),
+    path('contactus/', include('contactus.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

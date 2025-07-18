@@ -1,0 +1,159 @@
+POST-->http://127.0.0.1:8000/contactus/ContactUs/
+{
+    "full_name": "ameer waeel",
+    "email": "ali@gmail.com",
+    "phone": "01015651362",
+    "country": "EG",
+    "message": "ameer waeelameer waeelameer waeel"
+}
+-------------------------------------------
+Response-->http://127.0.0.1:8000/contactus/ContactUs/
+{
+    "full_name": "abdo Wael",
+    "email": "ameer@example.com",
+    "phone": "+20123456789",
+    "country": "EG",
+    "message": "أرغب بالتواصل",
+    "created_at": "2025-07-18T13:45:32.174982Z",
+    "updated_at": "2025-07-18T13:45:32.174982Z"
+}
+****************************************************************
+POST-->http://127.0.0.1:8000/contactus/find_us/
+{
+  "description": [
+    {
+      "title": "فرع مصر الجديدة",
+      "description": "العنوان هنا...",
+      "language": "ar"
+    },
+    {
+      "title": "Heliopolis Branch",
+      "description": "Address here...",
+      "language": "en"
+    }
+  ],
+  "link_location": "https://goo.gl/maps/your-location",
+  "location_name": "<p>فرع رئيسي</p>"
+}
+
+-------------------------------------------
+Response-->http://127.0.0.1:8000/contactus/find_us/
+{
+    "description": [
+        {
+            "title": "فرع مصر الجديدة",
+            "description": "العنوان هنا...",
+            "language": "ar"
+        },
+        {
+            "title": "Heliopolis Branch",
+            "description": "Address here...",
+            "language": "en"
+        }
+    ],
+    "link_location": "https://goo.gl/maps/your-location",
+    "location_name": "<p>فرع رئيسي</p>",
+    "created_at": "2025-07-18T17:11:47.893211Z",
+    "updated_at": "2025-07-18T17:11:47.893211Z"    
+}
+-------------------------------------------------
+GET-->http://127.0.0.1:8000/contactus/find_us/
+[ 
+    {
+        "description": [
+            {
+                "title": "فرع مصر الجديدة",
+                "description": "العنوان هنا...",
+                "language": "ar"
+            },
+            {
+                "title": "Heliopolis Branch",
+                "description": "Address here...",
+                "language": "en"
+            }
+        ],
+        "link_location": "https://goo.gl/maps/your-location",
+        "location_name": "<p>فرع رئيسي</p>",
+        "created_at": "2025-07-18T17:11:47.893211Z",
+        "updated_at": "2025-07-18T17:11:47.893211Z"
+    }
+]
+****************************************************************
+POST-->http://127.0.0.1:8000/contactus/get_in_touch/
+{
+  "description": [
+    {
+      "title": "فرع مصر الجديدة",
+      "description": "العنوان هنا...",
+      "language": "ar"
+    },
+    {
+      "title": "Heliopolis Branch",
+      "description": "Address here...",
+      "language": "en"
+    }
+  ]
+}
+
+-------------------------------------------
+Response-->http://127.0.0.1:8000/contactus/get_in_touch/
+{
+    "description": [
+        {
+            "title": "فرع مصر الجديدة",
+            "description": "العنوان هنا...",
+            "language": "ar"
+        },
+        {
+            "title": "Heliopolis Branch",
+            "description": "Address here...",
+            "language": "en"
+        }
+    ],
+    "created_at": "2025-07-18T17:23:00.617639Z",
+    "updated_at": "2025-07-18T17:23:00.617639Z"
+}
+
+-------------------------------------------------
+GET-->http://127.0.0.1:8000/contactus/get_in_touch/
+[
+    {
+        "description": [
+            {
+                "title": "فرع مصر الجديدة",
+                "description": "العنوان هنا...",
+                "language": "ar"
+            },
+            {
+                "title": "Heliopolis Branch",
+                "description": "Address here...",
+                "language": "en"
+            }
+        ],
+        "created_at": "2025-07-18T17:21:42.795440Z",
+        "updated_at": "2025-07-18T17:21:42.795440Z"
+    },
+    {
+        "description": [
+            {
+                "title": "فرع مصر الجديدة",
+                "description": "العنوان هنا...",
+                "language": "ar"
+            },
+            {
+                "title": "Heliopolis Branch",
+                "description": "Address here...",
+                "language": "en"
+            }
+        ],
+        "created_at": "2025-07-18T17:23:00.617639Z",
+        "updated_at": "2025-07-18T17:23:00.617639Z"
+    }
+]
+****************************************************************
+POST-->
+-------------------------------------------
+Response-->
+-------------------------------------------------
+GET-->
+****************************************************************
