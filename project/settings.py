@@ -28,7 +28,49 @@ SECRET_KEY = 'django-insecure-yc9h_%rs9#-(80l#2*7it4f!(h7@zt=ed7mtcmm0)3)%+==2_@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = [
+    'alrayan-api.pulslytics.agency',
+    '127.0.0.1',
+    'localhost',
+    '51.89.23.8',  # ← أضف الـ IP ده
+ ]
+
+
+
+
+CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOWED_ORIGINS = [
+    "https://www.alrayan-api.pulslytics.agency",
+    "https://alrayan-api.pulslytics.agency",
+]
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
+# CSRF Settings
+CSRF_TRUSTED_ORIGINS = [
+    "https://www.alrayan-api.pulslytics.agency",
+    "https://alrayan-api.pulslytics.agency",
+]
 
 
 # Application definition
