@@ -31,7 +31,7 @@ DEBUG = True
 # ALLOWED_HOSTS = []
 
 ALLOWED_HOSTS = [
-    'alrayan-api.pulslytics.agency',
+    'alrayan-back.thepost.digital',
     '127.0.0.1',
     'localhost',
     '51.89.23.8',  # ← أضف الـ IP ده
@@ -42,8 +42,8 @@ ALLOWED_HOSTS = [
 
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
-    "https://www.alrayan-api.pulslytics.agency",
-    "https://alrayan-api.pulslytics.agency",
+    "https://www.alrayan-back.thepost.digital",
+    "https://alrayan-back.thepost.digital",
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = [
@@ -68,8 +68,8 @@ CORS_ALLOW_HEADERS = [
 
 # CSRF Settings
 CSRF_TRUSTED_ORIGINS = [
-    "https://www.alrayan-api.pulslytics.agency",
-    "https://alrayan-api.pulslytics.agency",
+    "https://www.alrayan-back.thepost.digital",
+    "https://alrayan-back.thepost.digital",
 ]
 
 
